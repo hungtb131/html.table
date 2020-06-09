@@ -2,130 +2,170 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Bàn cờ vua</title>
+    <title>bancovua_bangnangcao</title>
+    <style>
+        td {
+            width: 40px;
+            height: 40px;
+        }
+
+        td.color3:nth-child(odd) {
+            background-color: black;
+            color: white;
+        }
+
+        td.color3:nth-child(even) {
+            background-color: white;
+        }
+        td.color4:nth-child(odd) {
+            background-color: white;
+            color: white;
+        }
+
+        td.color4:nth-child(even) {
+            background-color: black;
+        }
+        td.color1 {
+            background-color: yellow;
+            vertical-align: bottom;
+            text-align: center;
+        }
+
+        .color2 {
+            background-color: yellow !important;
+            text-align: right;
+        }
+
+        #main {
+            border: 1px;
+            width: 700px;
+            height: 700px;
+        }
+    </style>
 </head>
 <body>
-<table style="width: 560px;height: 560px"cellspacing="0">
-    <tr style="height: 40px">
-        <th bgcolor="yellow"></th>
-        <th bgcolor="yellow">1</th>
-        <th bgcolor="yellow">2</th>
-        <th bgcolor="yellow">3</th>
-        <th bgcolor="yellow">4</th>
-        <th bgcolor="yellow">5</th>
-        <th bgcolor="yellow">6</th>
-        <th bgcolor="yellow">7</th>
-        <th bgcolor="yellow">8</th>
-        <td bgcolor="yellow" style="width: 20px"></td>
+<table id="main">
+    <tr>
+        <td class="color1"></td>
+        <td class="color1">1</td>
+        <td class="color1">2</td>
+        <td class="color1">3</td>
+        <td class="color1">4</td>
+        <td class="color1">5</td>
+        <td class="color1">6</td>
+        <td class="color1">7</td>
+        <td class="color1">8</td>
+        <td class="color1"></td>
     </tr>
     <tr>
-        <th bgcolor="yellow" style="width: 40px">A</th>
-        <td bgcolor="white"></td>
-        <td bgcolor="black"></td>
-        <td bgcolor="white"></td>
-        <td bgcolor="black"></td>
-        <td bgcolor="white"></td>
-        <td bgcolor="black"></td>
-        <td bgcolor="white"></td>
-        <td bgcolor="black"></td>
-        <td bgcolor="yellow" style="width: 20px"></td>
+        <td class="color2">A</td>
+        <td class="color3"></td>
+        <td class="color3"></td>
+        <td class="color3"></td>
+        <td class="color3"></td>
+        <td class="color3"></td>
+        <td class="color3"></td>
+        <td class="color3"></td>
+        <td class="color3"></td>
+        <td class="color1"></td>
     </tr>
     <tr>
-        <th bgcolor="yellow" style="width: 40px">B</th>
-        <td bgcolor="black"></td>
-        <td bgcolor="white"></td>
-        <td bgcolor="black"></td>
-        <td bgcolor="white"></td>
-        <td bgcolor="black"></td>
-        <td bgcolor="white"></td>
-        <td bgcolor="black"></td>
-        <td bgcolor="white"></td>
-        <td bgcolor="yellow" style="width: 20px"></td>
+        <td class="color2">B</td>
+        <td class="color4"></td>
+        <td class="color4"></td>
+        <td class="color4"></td>
+        <td class="color4"></td>
+        <td class="color4"></td>
+        <td class="color4"></td>
+        <td class="color4"></td>
+        <td class="color4"></td>
+        <td class="color1"></td>
     </tr>
     <tr>
-        <th bgcolor="yellow" style="width: 40px">C</th>
-        <td bgcolor="white"></td>
-        <td bgcolor="black"></td>
-        <td bgcolor="white"></td>
-        <td bgcolor="black"></td>
-        <td bgcolor="white"></td>
-        <td bgcolor="black"></td>
-        <td bgcolor="white"></td>
-        <td bgcolor="black"></td>
-        <td bgcolor="yellow" style="width: 20px"></td>
+        <td class="color2">C</td>
+        <td class="color3"></td>
+        <td class="color3"></td>
+        <td class="color3"></td>
+        <td class="color3"></td>
+        <td class="color3"></td>
+        <td class="color3"></td>
+        <td class="color3"></td>
+        <td class="color3"></td>
+        <td class="color1"></td>
     </tr>
     <tr>
-        <th bgcolor="yellow" style="width: 40px">D</th>
-        <td bgcolor="black"></td>
-        <td bgcolor="white"></td>
-        <td bgcolor="black"></td>
-        <td bgcolor="white"></td>
-        <td bgcolor="black"></td>
-        <td bgcolor="white"></td>
-        <td bgcolor="black"></td>
-        <td bgcolor="white"></td>
-        <td bgcolor="yellow" style="width: 20px"></td>
+        <td class="color2">D</td>
+        <td class="color4"></td>
+        <td class="color4"></td>
+        <td class="color4"></td>
+        <td class="color4"></td>
+        <td class="color4"></td>
+        <td class="color4"></td>
+        <td class="color4"></td>
+        <td class="color4"></td>
+        <td class="color1"></td>
     </tr>
     <tr>
-        <th bgcolor="yellow" style="width: 40px">E</th>
-        <td bgcolor="white"></td>
-        <td bgcolor="black"></td>
-        <td bgcolor="white"></td>
-        <td bgcolor="black"></td>
-        <td bgcolor="white"></td>
-        <td bgcolor="black"></td>
-        <td bgcolor="white"></td>
-        <td bgcolor="black"></td>
-        <td bgcolor="yellow" style="width: 20px"></td>
+        <td class="color2">E</td>
+        <td class="color3"></td>
+        <td class="color3"></td>
+        <td class="color3"></td>
+        <td class="color3"></td>
+        <td class="color3"></td>
+        <td class="color3"></td>
+        <td class="color3"></td>
+        <td class="color3"></td>
+        <td class="color1"></td>
     </tr>
     <tr>
-        <th bgcolor="yellow" style="width: 40px">F</th>
-        <td bgcolor="black"></td>
-        <td bgcolor="white"></td>
-        <td bgcolor="black"></td>
-        <td bgcolor="white"></td>
-        <td bgcolor="black"></td>
-        <td bgcolor="white"></td>
-        <td bgcolor="black"></td>
-        <td bgcolor="white"></td>
-        <td bgcolor="yellow" style="width: 20px"></td>
+        <td class="color2">F</td>
+        <td class="color4"></td>
+        <td class="color4"></td>
+        <td class="color4"></td>
+        <td class="color4"></td>
+        <td class="color4"></td>
+        <td class="color4"></td>
+        <td class="color4"></td>
+        <td class="color4"></td>
+        <td class="color1"></td>
     </tr>
     <tr>
-        <th bgcolor="yellow" style="width: 40px">G</th>
-        <td bgcolor="white"></td>
-        <td bgcolor="black"></td>
-        <td bgcolor="white"></td>
-        <td bgcolor="black"></td>
-        <td bgcolor="white"></td>
-        <td bgcolor="black"></td>
-        <td bgcolor="white"></td>
-        <td bgcolor="black"></td>
-        <td bgcolor="yellow" style="width: 20px"></td>
+        <td class="color2">G</td>
+        <td class="color3"></td>
+        <td class="color3"></td>
+        <td class="color3"></td>
+        <td class="color3"></td>
+        <td class="color3"></td>
+        <td class="color3"></td>
+        <td class="color3"></td>
+        <td class="color3"></td>
+        <td class="color1"></td>
     </tr>
     <tr>
-        <th bgcolor="yellow" style="width: 40px">H</th>
-        <td bgcolor="black"></td>
-        <td bgcolor="white"></td>
-        <td bgcolor="black"></td>
-        <td bgcolor="white"></td>
-        <td bgcolor="black"></td>
-        <td bgcolor="white"></td>
-        <td bgcolor="black"></td>
-        <td bgcolor="white"></td>
-        <td bgcolor="yellow" style="width: 20px"></td>
+        <td class="color2">H</td>
+        <td class="color4"></td>
+        <td class="color4"></td>
+        <td class="color4"></td>
+        <td class="color4"></td>
+        <td class="color4"></td>
+        <td class="color4"></td>
+        <td class="color4"></td>
+        <td class="color4"></td>
+        <td class="color1"></td>d>
     </tr>
     <tr>
-        <td bgcolor="yellow" style="height: 20px"></td>
-        <td bgcolor="yellow" style="height: 20px"></td>
-        <td bgcolor="yellow" style="height: 20px"></td>
-        <td bgcolor="yellow" style="height: 20px"></td>
-        <td bgcolor="yellow" style="height: 20px"></td>
-        <td bgcolor="yellow" style="height: 20px"></td>
-        <td bgcolor="yellow" style="height: 20px"></td>
-        <td bgcolor="yellow" style="height: 20px"></td>
-        <td bgcolor="yellow" style="height: 20px"></td>
-        <td bgcolor="yellow" style="height: 20px"></td>
+        <td class="color1"></td>
+        <td class="color1"></td>
+        <td class="color1"></td>
+        <td class="color1"></td>
+        <td class="color1"></td>
+        <td class="color1"></td>
+        <td class="color1"></td>
+        <td class="color1"></td>
+        <td class="color1"></td>
+        <td class="color1"></td>
     </tr>
 </table>
+
 </body>
 </html>
